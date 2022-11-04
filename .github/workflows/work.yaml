@@ -1,0 +1,13 @@
+name: Work Test
+
+
+on: push
+
+jobs:
+  starter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print a calender
+        run: cal 
+      - name: print date
+        run: date
