@@ -11,3 +11,18 @@ jobs:
         run: cal 
       - name: print date
         run: date
+
+  job2:
+    runs-on: macos-latest
+    steps:
+      - name: print a calender
+        run: cal
+      - name: print date
+        run: date
+
+  job3:
+    runs-on: windows-latest
+    steps:
+      - name: print date
+        run: Get-date
+
